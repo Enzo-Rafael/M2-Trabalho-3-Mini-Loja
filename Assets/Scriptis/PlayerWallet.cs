@@ -1,8 +1,16 @@
 using UnityEngine;
+using UnityEngine.Networking;
+using UnityEngine.UI;
+using TMPro;
+using System;
 
 public class PlayerWallet : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    //Variaveis
+    public TMP_Text txtLabel;
+    [SerializeField]private String Url;
+
+    //Metodos
     void Start()
     {
         
