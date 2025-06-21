@@ -1,2 +1,2 @@
 Nome: bolinha de golfe
-Valor: 2,50
+Valor: 2,00
